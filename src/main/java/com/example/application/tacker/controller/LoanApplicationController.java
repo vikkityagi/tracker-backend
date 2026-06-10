@@ -31,6 +31,7 @@ public class LoanApplicationController {
         return service.createApplication(application);
     }
 
+    // test
     @PostMapping("/action")
     public String takeAction(
             @RequestBody ActionRequestDto dto) {
